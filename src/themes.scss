@@ -1,0 +1,84 @@
+@import './global.scss';
+
+// DARK THEME ------------------------------------------------
+
+
+.app_dark {
+    background-color: $bg-dark;
+
+    a,
+    h1,
+    h2,
+    table,
+    p {
+        color: $text-light-color;
+    }
+
+    span {
+        color: $yellow-color;
+
+    }
+
+    .app__header-nav-toggle-bg {
+        background-color: $yellow-color;
+    }
+
+    .app__header-motion-bg {
+        background-color: $bg-light;
+    }
+
+    .app__header-nav-menu-bg,
+    .theme-bg {
+        background-color: $bg-dark;
+    }
+
+    .app__header-nav-menu-svg-bg {
+        background-color: $bg-dark;
+        color: $text-light-color;
+    }
+
+    .app__about-bg {
+        background-color: $bg-dark;
+    }
+
+    .app__underline-color {
+        text-decoration-color: $yellow-color;
+    }
+}
+
+// LIGHT THEME ------------------------------------------------
+
+.app_light {
+    background-color: $bg-light;
+
+    a,
+    h1,
+    h2,
+    table,
+    p {
+        color: $text-dark-color;
+    }
+
+    span {
+        color: $red-color;
+    }
+
+    .app__header-nav-toggle-bg {
+        background-color: $red-color;
+    }
+
+    .app__header-motion-bg,
+    .theme-bg {
+        background-color: $bg-light;
+    }
+
+    .app__header-nav-menu-svg-bg {
+        background-color: $bg-light;
+        color: $text-dark-color;
+    } 
+
+    .app__underline-color {
+        text-decoration-color: $red-color;
+    }
+    
+}
